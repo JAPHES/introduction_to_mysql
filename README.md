@@ -1,25 +1,32 @@
-# SQL Course Notes
+# SQL Learning Project
 
-This project is a personal workspace for learning SQL database commands. It contains practice scripts and notes while I study core SQL topics.
+This repository is my practice space for learning SQL database commands.
 
-## What is inside
-- `sqlintro.sql` ? starter script with basic SQL practice.
+## Project Files
+- `sqlintro.sql`: practice queries for table creation, schema changes, inserts, filtering, and updates.
 
-## Topics I plan to cover
-- `CREATE DATABASE`, `CREATE TABLE`, and data types
-- `INSERT`, `UPDATE`, `DELETE`
-- `SELECT`, filtering, sorting, and limiting
-- Joins: `INNER`, `LEFT`, `RIGHT`, `FULL`
-- Aggregations: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
-- `GROUP BY` and `HAVING`
-- Constraints: `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`
-- Indexes and basic performance ideas
+## What I Practice Here
+- Creating tables (`CREATE TABLE`)
+- Updating table structure (`ALTER TABLE`)
+- Inserting records (`INSERT INTO`)
+- Querying data (`SELECT`, `WHERE`)
+- Modifying existing records (`UPDATE`)
+- Removing columns (`ALTER TABLE ... DROP COLUMN`)
 
-## How I use this repo
-- Add new `.sql` files per topic or lesson.
-- Run scripts in my SQL environment of choice (SQLite, MySQL, PostgreSQL, etc.).
+## How to Use
+1. Open `sqlintro.sql` in your SQL editor or database client.
+2. Uncomment one block at a time.
+3. Run each block and verify results with `SELECT *` queries.
+4. Keep notes on errors and fixes as you learn.
 
-## Next steps
-- Add sample datasets.
-- Add more practice queries.
-- Add notes on common errors and fixes.
+## Suggested Learning Roadmap
+1. DDL basics: `CREATE`, `ALTER`, `DROP`
+2. DML basics: `INSERT`, `UPDATE`, `DELETE`
+3. Querying: `SELECT`, filtering, ordering, limits
+4. Joins and aggregations: `JOIN`, `GROUP BY`, `HAVING`
+5. Constraints and indexing basics
+
+## Next Improvements
+- Add separate `.sql` files by topic (for example: `01_ddl.sql`, `02_dml.sql`)
+- Add sample datasets for repeatable practice
+- Add advanced query practice (joins, subqueries, aggregates)
